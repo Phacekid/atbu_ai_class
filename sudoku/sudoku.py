@@ -75,7 +75,7 @@ def print_sudoku(board):
 def display_sudoku_gui(question_board, solved_board):
     def restart_game():
         root.destroy()  # Close the current GUI
-        start_game()  # Restart the game with a new puzzle
+        start_game()  # Restart the game with a new puzzles
 
     root = tk.Tk()
     root.title("Sudoku Solver")
